@@ -1,0 +1,46 @@
+/** 
+ * A very basic CSS reset:
+ * More about CSS resets: https://meyerweb.com/eric/tools/css/reset/
+ */
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+    color: #00ffff;
+}
+
+@media only screen and (min-width:768px) {
+  body {
+    background-color: grey;
+  }
+  
+  p {
+    font-size: 25px;
+    word-spacing: 25px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (min-width:1280px) {
+  body {
+    background-color: black;
+  }
+  
+  p {
+    font-size: 40px;
+    word-spacing: 25px;
+    line-height: 45px;
+  }
+}
